@@ -1,7 +1,6 @@
 import './App.scss';
 import React, { useState } from 'react';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import Button from '@mui/material/Button';
 
 function App() {
@@ -117,12 +116,6 @@ function App() {
           <p id="author">- {quotes.author}</p>
         </div>
         <div className="icons-container">
-          <a 
-          id="tweet-quote"
-          target="_blank"
-          href="https://twitter.com/intent/tweet">
-            <TwitterIcon/>
-          </a>
           <Button 
           id="new-quote"
           variant="text"
